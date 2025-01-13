@@ -22,6 +22,10 @@ int main(){
     double length1 = sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
     double length2 = sqrt(pow(x4 - x3, 2) + pow(y4 - y3, 2));
 
+    double length = sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
+
+    cout << "The length of the line is: " << length << endl;
+
     if (length1 == length2)
         cout << "The lines are equal" << endl;
     else
