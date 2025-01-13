@@ -28,8 +28,10 @@ int main(){
 
     if (length1 == length2)
         cout << "The lines are equal" << endl;
+    else if (length1 > length2)
+        cout << "The first line is greater than the second line" << endl;
     else
-        cout << "The lines are not equal" << endl;
+        cout << "The first line is less than the second line" << endl;
 
     return 0;
 }
